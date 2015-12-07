@@ -1,4 +1,6 @@
 ## My Portfolio - Udacity Front End Nanodegree
 
-## Live Preview:
+###Live Demo:
+
+http://creativea.github.io/Portfolio-Udacity-Project-1/
 
