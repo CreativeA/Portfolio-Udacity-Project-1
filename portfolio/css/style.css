@@ -99,10 +99,6 @@ h3 {
     margin: 28px 0px 0px;
 }
 
-.maintitle .label {
-
-}
-
 .subtitle {
     text-align: right;
     font-style: italic;
@@ -131,13 +127,13 @@ h3 {
     width: 100%;
 }
 
-.banner h1 {
-      background: rgba(239,101,24,0.82);
-      z-index: 1000;
-      position: relative;
-}
-
 /* Featured Portfolio Items */
+
+.introrow {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+    margin-bottom: 20px
+}
 
 .featuredrow {
     padding: 0 2% 4%; 
@@ -146,30 +142,44 @@ h3 {
     margin-left: 2%;
 }
 
-.featured {
+.featuredrow .featured {
     margin: 0 1%;
 }
 
-.featured:last-child {
+.featuredrow .featured:last-child {
     margin-right: 0px;
 }
 
-
 /* Media Queries */
 
-@media screen and (max-width: 767px) and (min-width: 521px) {
-    
-    .col-4 {
-      width: 50%;
-      margin: 0px;
-      
+@media screen and (max-width: 985px) and (min-width: 768px) { 
+    .ih-item.circle {
+      width: 215px;
+      height: 215px;
     }
 
+    .ih-item.circle .img {
+      width: 215px;
+      height: 215px;
+    }
+
+    .ih-item.circle.effect1 .spinner {
+      width: 225px;
+      height: 225px;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 521px) {
     .featuredrow {
         margin-left: 6%;
     }
 
-    .feat3 {
+    .featuredrow .featured {
+        width: 50%;
+        margin: 0px;
+    }
+
+    .featuredrow .feat3 {
         margin-left: 24%;
     }
 
@@ -196,14 +206,9 @@ h3 {
 }
 
 @media screen and (max-width: 520px) {
-
-	.col-4 {
-		width: 100%;
-        margin: 0px ;
-	}
-
-    .logobox {
+    .featuredrow .featured {
         width: 100%;
+        margin: 0 0 30px 13%;
     }
 
     .titlebox {
@@ -215,91 +220,20 @@ h3 {
     }
 
     .maintitle {
-        margin-top: 0px;
+        margin-top: 0;
     }
 
     .subtitle {
         font-size: 16px;
     }
-    .featured {
-        margin-bottom: 30px;
-    }
-    .featured {
-        margin-left: 13%;
-    }
 
+    .logobox {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 380px) {
-    .featured {
-        margin-left: 0px;
+    .featuredrow .featured {
+        margin-left: 0;
     }
-}
-
-
-
-@media screen and (max-width: 985px) and (min-width: 768px) {
-    
-    .col-4 {
-      
-    }
-
-    .feat3 {
-
-    }
-
-    .ih-item.circle {
-      width: 215px;
-      height: 215px;
-    }
-
-    .ih-item.circle .img {
-      width: 215px;
-      height: 215px;
-    }
-
-    .ih-item.circle.effect1 .spinner {
-      width: 225px;
-      height: 225px;
-    }
-}
-
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-
-}
-
-/* Smartphones (landscape) ----------- */
-@media only screen and (min-width : 321px) {
-
-}
-
-/* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px) {
-
-}
-
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-
-}
-
-/* iPads (landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-
-}
-
-/* iPads (portrait) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-
-}
-
-/* Desktops and laptops ----------- */
-@media only screen and (min-width : 1224px) {
-
-}
-
-/* Large screens ----------- */
-@media only screen and (min-width : 1824px) {
-
 }
