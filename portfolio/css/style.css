@@ -152,6 +152,10 @@ h3 {
 
 /* Media Queries */
 
+@-ms-viewport{
+    width: device-width;
+}
+
 @media screen and (max-width: 985px) and (min-width: 768px) { 
     .ih-item.circle {
       width: 215px;
