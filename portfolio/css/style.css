@@ -11,7 +11,6 @@
 
 body {
     background: #252831;
-    padding: 0px 10px;
 }
 
 h2 {
@@ -26,13 +25,14 @@ h3 {
 /* Framework Layout Basics */
 
 .grid {
-    margin: 0 auto;
+    margin: 40px auto 0;
     max-width: 1000px;
     width: 100%;
     overflow: hidden;
+    padding: 0px 10px;
 }
 
-.row {
+header, .row {
     width: 100%;
     margin-bottom: 20px;
     display: flex;
@@ -89,7 +89,7 @@ h3 {
 
 /* Header */
 
-.header {
+header {
     border-bottom: 2px solid #ccc;
 }
 
@@ -114,6 +114,128 @@ h3 {
 .logo {
     max-width: 100px;
     margin: 30px 0px 10px;
+}
+
+/* Navigation */
+
+.topbar {
+    padding: 0 10px;
+    position: fixed;
+    top: 0;
+    background: #E68513;
+    width: 100%;
+    z-index: 1000;
+    transition: all 0.25s ease;
+}
+
+nav {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+nav .question {
+    margin: 5px 0;
+    letter-spacing: 0;
+    display: inline-block;
+    font-weight: normal;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height:38px;
+    margin:0;
+    padding:0;
+    position:relative;
+    float: left;
+}
+
+nav ul li a {
+    color: #fff;
+    line-height: 2em;
+    text-decoration: none;
+    padding: 20px;
+    letter-spacing: 1px;
+}
+
+nav ul li ul {
+    display: none;
+    list-style: none;
+    background: #E68513;
+    min-width: 100%;
+    white-space: nowrap;
+}
+
+nav ul li ul li {
+    background: #E68513;
+    min-width: 100%;
+    white-space: nowrap;
+    padding: 6px 0;
+    text-align: center;
+}
+
+nav ul li ul li a {
+    padding: 0;
+}
+
+nav ul > li.sub{
+    background: url(../images/arrow-down.png) no-repeat scroll right center;
+}
+
+nav li:hover, nav .sub:hover {
+    background-color: #666;
+}
+
+nav li:hover > ul {
+    position: absolute;
+    display : block;
+}
+.stickylogo {
+    display: none;
+}
+
+.topbar.past-main {
+    border-bottom: 3px #fff solid;
+    padding: 10px 0;
+}
+
+.topbar.past-main nav ul {
+    margin-top: 3px;
+}
+
+.topbar.past-main .stickylogo {
+    display: inline-block;
+    vertical-align:middle;
+    height: 50px;
+    width: 50px;
+}
+
+#main {
+  
+}
+
+#below-main {
+  
+}
+
+/* Responsive Navigation Menu */
+
+.slicknav_menu {   
+    background: #E68513;
+    display: none;
+}
+
+.slicknav_btn {
+    background-color: #E68513;
+}
+
+.slicknav_menu .slicknav_menutxt {
+    display: none;
 }
 
 /* Banner Area */
@@ -148,6 +270,14 @@ h3 {
 
 .featuredrow .featured:last-child {
     margin-right: 0px;
+}
+
+/* Footer */
+
+.valid {
+    border:0;
+    width:88px;
+    height:31px
 }
 
 /* Media Queries */
@@ -207,12 +337,23 @@ h3 {
     .featuredrow {
         margin: 0 2%;
     }
+
+    nav .question {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 520px) {
-    .featuredrow .featured {
-        width: 100%;
-        margin: 0 0 30px 13%;
+    .topbar {
+        display: none;
+    }
+    
+    .slicknav_menu {
+        display: block;
+    }
+
+    .grid {
+        margin: 0 auto;
     }
 
     .titlebox {
@@ -234,6 +375,12 @@ h3 {
     .logobox {
         width: 100%;
     }
+
+    .featuredrow .featured {
+        width: 100%;
+        margin: 0 0 30px 13%;
+    }
+    
 }
 
 @media only screen and (max-width: 380px) {
