@@ -32,11 +32,14 @@ h3 {
     padding: 0px 10px;
 }
 
-header, .row {
+header, footer, section, .row {
     width: 100%;
     margin-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
+}
+
+.column {
 }
 
 .col-1 {
@@ -128,6 +131,10 @@ header {
     transition: all 0.25s ease;
 }
 
+.stickylogo {
+    display: none;
+}
+
 nav {
     margin: 0 auto;
     max-width: 1000px;
@@ -188,16 +195,19 @@ nav ul > li.sub{
 }
 
 nav li:hover, nav .sub:hover {
-    background-color: #666;
+    background-color: #fff;
+}
+
+nav li:hover > a, nav .sub:hover > a {
+    color: #E68513;
 }
 
 nav li:hover > ul {
     position: absolute;
     display : block;
 }
-.stickylogo {
-    display: none;
-}
+
+/* Sticky Top Bar */
 
 .topbar.past-main {
     border-bottom: 3px #fff solid;
@@ -208,19 +218,15 @@ nav li:hover > ul {
     margin-top: 3px;
 }
 
+.topbar.past-main nav ul li ul li:first-child {
+    margin-top: 16px;
+}
+
 .topbar.past-main .stickylogo {
     display: inline-block;
     vertical-align:middle;
     height: 50px;
     width: 50px;
-}
-
-#main {
-  
-}
-
-#below-main {
-  
 }
 
 /* Responsive Navigation Menu */
@@ -257,18 +263,18 @@ nav li:hover > ul {
     margin-bottom: 20px
 }
 
-.featuredrow {
+.showcase {
     padding: 0 2% 4%; 
     margin-bottom: 20px;
     overflow: hidden;
     margin-left: 2%;
 }
 
-.featuredrow .featured {
+.showcase .featured {
     margin: 0 1%;
 }
 
-.featuredrow .featured:last-child {
+.showcase .featured:last-child {
     margin-right: 0px;
 }
 
@@ -304,16 +310,16 @@ nav li:hover > ul {
 }
 
 @media screen and (max-width: 767px) and (min-width: 521px) {
-    .featuredrow {
+    .showcase {
         margin-left: 6%;
     }
 
-    .featuredrow .featured {
+    .showcase .featured {
         width: 50%;
         margin: 0px;
     }
 
-    .featuredrow .feat3 {
+    .showcase #feat3 {
         margin-left: 24%;
     }
 
@@ -334,7 +340,7 @@ nav li:hover > ul {
 }
 
 @media only screen and (max-width: 620px) {
-    .featuredrow {
+    .showcase {
         margin: 0 2%;
     }
 
@@ -376,15 +382,14 @@ nav li:hover > ul {
         width: 100%;
     }
 
-    .featuredrow .featured {
+    .showcase .featured {
         width: 100%;
         margin: 0 0 30px 13%;
     }
-    
 }
 
 @media only screen and (max-width: 380px) {
-    .featuredrow .featured {
+    .showcase .featured {
         margin-left: 0;
     }
 }

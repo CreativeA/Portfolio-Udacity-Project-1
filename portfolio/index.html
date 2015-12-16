@@ -4,11 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>A portfolio named Rover</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/ihover.css">
-    <link rel="stylesheet" href="css/slicknav.min.css" />
+    <link rel="stylesheet" href="css/slicknav.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Enriqueta|Pacifico'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Enriqueta%7CPacifico">
   </head>
   <body>
     <div class="topbar">
@@ -29,31 +30,27 @@
       </nav>
     </div>    
     <div class="grid">
-      <div id="main">
-      <header>
-        <div class="col-3 logobox">
+      <header id="main">
+        <div class="col-3 column logobox">
         	<img class="logo" src="./images/udacitylogo.png" alt="Udacious Udacity Logo">
         </div>
-        <div class="col-9 titlebox">
+        <div class="col-9 column titlebox">
         	<h1 class="maintitle"><span class="label">Portfolio:</span> Anna&nbsp;Ewing</h1>
         	<h2 class="subtitle">Refining my skills one website at a time</h2>
         </div>
       </header>
-      </div>
-      <div id="below-main">
-      <div class="row">
-      	<div class="col-12 banner">
+      <section>
+      	<div class="col-12 column banner">
       		<img src="./images/background.jpg" alt="The Cogs in the Machine" srcset="./images/background-1.jpg 1x, ./images/background-2.jpg 2x">
       	</div>
-      </div>
+      </section>
       <div class="row">
-      	<div class="col-12 introrow">
+      	<div class="col-12 column introrow">
       		<h2 class="intro">Explore the inner workings of my curious mind...</h2>
       	</div>
       </div>
-      <div class="row featuredrow">
-  	    <div class="col-4 featured feat1">
-        <!-- normal -->
+      <section class="showcase">
+  	    <div id="feat1" class="col-4 column featured">
           <div class="ih-item circle effect1">
             <a href="#">
               <div class="spinner"></div>
@@ -66,10 +63,8 @@
               </div>
             </a>
           </div>
-        <!-- end normal -->
   	    </div>
-  	    <div class="col-4 featured feat2">
-        <!-- normal -->
+  	    <div id="feat2" class="col-4 column featured">
           <div class="ih-item circle effect1">
             <a href="#">
               <div class="spinner"></div>
@@ -82,10 +77,8 @@
               </div>
             </a>
           </div>
-        <!-- end normal -->
   	    </div>
-  	    <div class="col-4 featured feat3">
-        <!-- normal -->
+  	    <div id="feat3" class="col-4 column featured">
           <div class="ih-item circle effect1">
             <a href="#">
               <div class="spinner"></div>
@@ -98,17 +91,15 @@
               </div>
             </a>
           </div>
-        <!-- end normal -->
   	    </div>
-  	   </div>
-       </div>
-        <div class="row">
+  	   </section>
+        <footer>
             <p>
               <a href="http://jigsaw.w3.org/css-validator/check/referer">
               <img class="valid" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
               </a>
             </p>
-        </div>
+        </footer>
     </div>
   <!-- Load jQuery -->
   <script src="js/jquery-1.11.3.min.js"></script>
