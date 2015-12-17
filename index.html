@@ -2,36 +2,55 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>A portfolio named Rover</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/ihover.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Enriqueta'>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/libs/normalize.css">
+    <link rel="stylesheet" href="css/libs/ihover.css">
+    <link rel="stylesheet" href="css/libs/slicknav.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Enriqueta%7CPacifico">
   </head>
   <body>
+    <div class="topbar">
+      <nav>
+        <img class="stickylogo" src="./images/udacitylogo-white.png" alt="Udacious White Udacity Logo">
+        <h3 class="question">So, what's the deal here?</h3>
+        <ul id="menu">
+          <li><a href="#">About</a></li>
+          <li class="sub"><a href="#">Projects</a>
+             <ul>
+                <li><a href="#">The Best</a></li>
+                <li><a href="#">Is Yet</a></li>
+                <li><a href="#">To Come</a></li>
+              </ul>
+          </li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>    
     <div class="grid">
-      <div class="row header">
-        <div class="col-6 logobox">
-        	<img class="logo" src="./images/udacitylogo.png" alt="Audacious Udacity Logo">
+      <header id="main">
+        <div class="col-3 column logobox">
+        	<img class="logo" src="./images/udacitylogo.png" alt="Udacious Udacity Logo">
         </div>
-        <div class="col-6 titlebox">
+        <div class="col-9 column titlebox">
         	<h1 class="maintitle"><span class="label">Portfolio:</span> Anna&nbsp;Ewing</h1>
         	<h2 class="subtitle">Refining my skills one website at a time</h2>
         </div>
-      </div>
-      <div class="row">
-      	<div class="col-12 banner">
-      		<img src="./images/background.png" alt="The Cogs in the Machine">
+      </header>
+      <section>
+      	<div class="col-12 column banner">
+      		<img src="./images/background.jpg" alt="The Cogs in the Machine" srcset="./images/background-1.jpg 1x, ./images/background-2.jpg 2x">
       	</div>
-      </div>
+      </section>
       <div class="row">
-      	<div class="col-12" style="border-bottom: 2px solid #fff; padding-bottom: 10px; margin-bottom: 20px">
+      	<div class="col-12 column introrow">
       		<h2 class="intro">Explore the inner workings of my curious mind...</h2>
       	</div>
       </div>
-      <div class="row featuredrow">
-  	    <div class="col-4 featured feat1">
-        <!-- normal -->
+      <section class="showcase">
+  	    <div id="feat1" class="col-4 column featured">
           <div class="ih-item circle effect1">
             <a href="#">
               <div class="spinner"></div>
@@ -44,10 +63,8 @@
               </div>
             </a>
           </div>
-        <!-- end normal -->
   	    </div>
-  	    <div class="col-4 featured feat2">
-        <!-- normal -->
+  	    <div id="feat2" class="col-4 column featured">
           <div class="ih-item circle effect1">
             <a href="#">
               <div class="spinner"></div>
@@ -60,10 +77,8 @@
               </div>
             </a>
           </div>
-        <!-- end normal -->
   	    </div>
-  	    <div class="col-4 featured feat3">
-        <!-- normal -->
+  	    <div id="feat3" class="col-4 column featured">
           <div class="ih-item circle effect1">
             <a href="#">
               <div class="spinner"></div>
@@ -76,16 +91,41 @@
               </div>
             </a>
           </div>
-        <!-- end normal -->
   	    </div>
-  	   </div>
-        <div class="row">
+  	   </section>
+        <footer>
             <p>
               <a href="http://jigsaw.w3.org/css-validator/check/referer">
-              <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
+              <img class="valid" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
               </a>
             </p>
-        </div>
+        </footer>
     </div>
+  <!-- Load jQuery -->
+  <script src="js/libs/jquery-1.11.3.min.js"></script>
+  <!-- Mobile Nav Mode -->
+  <script src="js/jquery.slicknav.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('#menu').slicknav();
+    });
+  </script>
+  <!-- Sticky Header -->
+  <script type="text/javascript">
+    // get the value of the bottom of the #main element by adding the offset of that element plus its height, set it as a variable
+     $(document).ready(function(){
+      var mainbottom = $('#main').offset().top + $('#main').height();
+      // on scroll, 
+      $(window).on('scroll',function(){
+          // we round here to reduce a little workload
+          var stop = Math.round($(window).scrollTop());
+          if (stop > mainbottom) {
+              $('.topbar').addClass('past-main');
+          } else {
+              $('.topbar').removeClass('past-main');
+          }
+      }); 
+    });
+   </script>
   </body>
 </html>
