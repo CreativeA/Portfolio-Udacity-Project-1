@@ -1,0 +1,33 @@
+/* Responsive Navigation Menu - Override Libs*/
+
+.slicknav_menu {   
+    background: $main-color;
+    @extend %nodisplay;
+}
+
+ul.slicknav_nav {
+    @extend %t-border;
+}
+
+ul.slicknav_nav li:hover a {
+    background: none;
+    color: $main-color;
+}
+
+ul.slicknav_nav li > ul > li:hover a {
+    background: $main-color;
+    color: $light-accent;
+}
+
+.slicknav_nav .slicknav_row:hover, ul.slicknav_nav li:hover {
+    background: $light-accent;
+    color: $main-color;
+}
+
+.slicknav_btn {
+    background-color: $main-color;
+}
+
+.slicknav_menu .slicknav_menutxt, .slicknav_nav .slicknav_arrow {
+    @extend %nodisplay;
+}

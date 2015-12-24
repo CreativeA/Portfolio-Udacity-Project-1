@@ -1,0 +1,21 @@
+/* Sticky Top Bar */
+
+.topbar.past-main {
+    border-bottom: 3px $light-accent solid;
+    padding: 0.7em 0;
+}
+
+.topbar.past-main nav ul {
+    margin-top: 0.2em;
+}
+
+.topbar.past-main nav ul li ul li:first-child {
+    margin-top: 0.95em;
+}
+
+.topbar.past-main .stickylogo {
+    display: inline-block;
+    vertical-align:middle;
+    height: 3em;
+    width: 3em;
+}

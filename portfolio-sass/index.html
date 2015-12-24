@@ -10,15 +10,16 @@
     <link rel="stylesheet" href="css/libs/slicknav.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Enriqueta%7CPacifico">
+    <script src="js/libs/picturefill.js" async></script>
   </head>
   <body>
     <div class="topbar">
       <nav>
-        <img class="stickylogo" src="./images/udacitylogo-white.png" alt="Udacious White Udacity Logo">
+        <img class="stickylogo" src="./images/udacitylogo-white.png" alt="Udacious White Udacity Logo" srcset="./images/udacitylogo-white.png 1x, ./images/udacitylogo-white_x2.png 2x">
         <h3 class="question">So, what's the deal here?</h3>
         <ul id="menu">
           <li><a href="#">About</a></li>
-          <li class="sub"><a href="#">Projects</a>
+          <li class="sub"><a class="entypo-down-open" href="#">Projects</a>
              <ul>
                 <li><a href="#">The Best</a></li>
                 <li><a href="#">Is Yet</a></li>
@@ -32,74 +33,86 @@
     <div class="grid">
       <header id="main">
         <div class="col-3 column logobox">
-        	<img class="logo" src="./images/udacitylogo.png" alt="Udacious Udacity Logo">
+          <img class="logo" src="./images/udacitylogo.png" alt="Udacious Udacity Logo" srcset="./images/udacitylogo.png 1x, ./images/udacitylogo_x2.png 2x">
         </div>
         <div class="col-9 column titlebox">
-        	<h1 class="maintitle"><span class="label">Portfolio:</span> Anna&nbsp;Ewing</h1>
-        	<h2 class="subtitle">Refining my skills one website at a time</h2>
+          <h1 class="maintitle"><span class="label">Portfolio:</span> Anna&nbsp;Ewing</h1>
+          <h2 class="subtitle">Refining my skills one website at a time</h2>
         </div>
       </header>
-      <section>
-      	<div class="col-12 column banner">
-      		<img src="./images/background.jpg" alt="The Cogs in the Machine" srcset="./images/background-1.jpg 1x, ./images/background-2.jpg 2x">
-      	</div>
+      <section id="banner">
+        <div class="col-12 column">
+          <picture>
+            <!--[if IE 9]><video><![endif]-->
+            <source media="(max-width: 420px)" srcset="./images/bannercloseup_sml.jpg 300w, ./images/bannercloseup_med.jpg 384w, ./images/bannercloseup_lrg.jpg 768w" alt="Reach for the sky">
+            <!--[if IE 9]></video><![endif]-->
+            <img src="./images/bannerimage_lrg.jpg" srcset="./images/bannerimage_sml.jpg 365w, ./images/bannerimage_med.jpg 734w, ./images/bannerimage_lrg.jpg 980w, ./images/bannerimage_xlrg.jpg 1960w" alt="Reach for the sky">
+          </picture>
+        </div>
       </section>
-      <div class="row">
-      	<div class="col-12 column introrow">
-      		<h2 class="intro">Explore the inner workings of my curious mind...</h2>
-      	</div>
-      </div>
-      <section class="showcase">
-  	    <div id="feat1" class="col-4 column featured">
-          <div class="ih-item circle effect1">
-            <a href="#">
-              <div class="spinner"></div>
-              <div class="img"><img src="./images/moon-surface.jpg" alt="To The Moon"></div>
-              <div class="info">
-                <div class="info-back">
-                  <h3>The Best</h3>
-                  <p>That we all strive for...</p>
-                </div>
-              </div>
-            </a>
+      <section id="showcase">
+        <div id="intro" class="row">
+          <div class="col-12 column">
+            <h2>Explore the inner workings of a curious mind...</h2>
           </div>
-  	    </div>
-  	    <div id="feat2" class="col-4 column featured">
-          <div class="ih-item circle effect1">
-            <a href="#">
-              <div class="spinner"></div>
-              <div class="img"><img src="./images/mars-surface.jpg" alt="To The Moon"></div>
-              <div class="info">
-                <div class="info-back">
-                  <h3>Is Yet</h3>
-                  <p>...to simply reach our potential...</p>
+        </div>
+        <div class="row featuredrow">
+          <div id="feat1" class="col-4 column featureditem">
+            <div class="ih-item circle effect1">
+              <a href="#">
+                <div class="spinner"></div>
+                <div class="img"><img src="./images/moonsurface_lrg.jpg" srcset="./images/moonsurface_xlrg.jpg 520w, ./images/moonsurface_lrg.jpg 260w, ./images/moonsurface_med.jpg 210w, ./images/moonsurface_sml.jpg 205w" sizes="(max-width: 520px) 100vw, (max-width: 767px) 50vw, (min-width: 768px) 33.33vw" alt="To The Moon"></div>
+                <div class="info">
+                  <div class="info-back">
+                    <h3>The Best</h3>
+                    <p>That we all strive for...</p>
+                  </div>
                 </div>
-              </div>
-            </a>
-          </div>
-  	    </div>
-  	    <div id="feat3" class="col-4 column featured">
-          <div class="ih-item circle effect1">
-            <a href="#">
-              <div class="spinner"></div>
-              <div class="img"><img src="./images/galaxy-picture.jpg" alt="To The Moon"></div>
-              <div class="info">
-                <div class="info-back">
-                  <h3>To Come</h3>
-                  <p>...to accomplish what we did not dare dream we could achieve.</p>
-                </div>
-              </div>
-            </a>
-          </div>
-  	    </div>
-  	   </section>
-        <footer>
-            <p>
-              <a href="http://jigsaw.w3.org/css-validator/check/referer">
-              <img class="valid" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
               </a>
-            </p>
-        </footer>
+            </div>
+          </div>
+          <div id="feat2" class="col-4 column featureditem">
+            <div class="ih-item circle effect1">
+              <a href="#">
+                <div class="spinner"></div>
+                <div class="img"><img src="./images/marssurface_lrg.jpg" srcset="./images/marssurface_xlrg.jpg 520w, ./images/marssurface_lrg.jpg 260w, ./images/marssurface_med.jpg 210w, ./images/marssurface_sml.jpg 205w" sizes="(max-width: 520px) 100vw, (max-width: 767px) 50vw, (min-width: 768px) 33.33vw" alt="To Mars"></div>
+                <div class="info">
+                  <div class="info-back">
+                    <h3>Is Yet</h3>
+                    <p>...to simply reach our potential...</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div id="feat3" class="col-4 column featureditem">
+            <div class="ih-item circle effect1">
+              <a href="#">
+                <div class="spinner"></div>
+                <div class="img"><img src="./images/galaxy_lrg.jpg" srcset="./images/galaxy_xlrg.jpg 520w, ./images/galaxy_lrg.jpg 260w, ./images/galaxy_med.jpg 210w, ./images/galaxy_sml.jpg 205w" sizes="(max-width: 520px) 100vw, (max-width: 767px) 50vw, (min-width: 768px) 33.33vw" alt="To A Galaxy Far, Far Away"></div>
+                <div class="info">
+                  <div class="info-back">
+                    <h3>To Come</h3>
+                    <p>...to accomplish what we did not dare dream we could achieve.</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div>
+          <a href="http://jigsaw.w3.org/css-validator/check/referer">
+          <img class="valid" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
+          </a>
+        </div>
+        <div class="social">
+            <a class="zocial-twitter" href="#"></a>
+            <a class="zocial-github" href="#"></a>
+            <a class="zocial-linkedin" href="#"></a>
+        </div>
+      </footer>
     </div>
   <!-- Load jQuery -->
   <script src="js/libs/jquery-1.11.3.min.js"></script>

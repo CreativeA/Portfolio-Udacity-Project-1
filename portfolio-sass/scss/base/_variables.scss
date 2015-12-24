@@ -1,0 +1,33 @@
+// Descriptive color variables - our pallette
+
+$white          	: #fff;
+$black          	: #000;
+$light-grey     	: #ccc;
+$mid-grey			: #818696;
+$dark-grey      	: #252831;
+$udacious-orange 	: #E68513;
+
+$brief-color-one	: #F8981C;
+$brief-color-two	: #BCBBBB;
+$brief-color-three	: #747704;
+
+// Functional color variables
+
+$border 			: $light-grey;
+$site-background	: $dark-grey;
+$main-color			: $udacious-orange;
+$subtitle			: $mid-grey;
+$light-accent		: $white;
+
+// Font Stacks
+
+$stack-serif		: 'Enriqueta', serif;
+
+// Media Query Breakpoints
+
+$brk-tab			: '(max-width: 985px) and (min-width: 768px)';
+$brk-tab-narrow		: '(max-width: 767px) and (min-width: 521px)';
+$brk-mid			: '(max-width: 620px)';
+$brk-mid-narrow		: '(max-width: 520px)';
+$brk-mob			: '(max-width: 420px)';
+$brk-mob-narrow		: '(max-width: 380px)';

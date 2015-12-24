@@ -1,0 +1,80 @@
+/* Navigation */
+
+nav {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+nav .question {
+    margin: 0.3em 1em;
+    letter-spacing: 0;
+    display: inline-block;
+    font-weight: normal;
+    @media #{$brk-mid} {
+        display: none;
+    }
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 2.37em;
+    margin:0;
+    padding:0;
+    position:relative;
+    float: left;
+    transition: all 0.2s ease;
+}
+
+nav ul li a {
+    color: $light-accent;
+    line-height: 2em;
+    text-decoration: none;
+    padding: 1.25em;
+    letter-spacing: 0.05em;
+    @media #{$brk-tab-narrow} {
+        padding: 0.75em;
+    }
+}
+
+nav ul li ul {
+    display: none;
+    list-style: none;
+    background: $main-color;
+    min-width: 100%;
+    white-space: nowrap;
+}
+
+nav ul li ul li {
+    background: $main-color;
+    min-width: 100%;
+    white-space: nowrap;
+    padding: 0.3em 0;
+    text-align: center;
+}
+
+nav ul li ul li a {
+    padding: 0;
+}
+
+nav ul > li a:before {
+    margin-right: 0.625em;
+}
+
+nav li:hover, nav .sub:hover {
+    background-color: $light-accent;
+}
+
+nav li:hover > a, nav .sub:hover > a {
+    color: $main-color;
+}
+
+nav li:hover > ul {
+    position: absolute;
+    display : block;
+}

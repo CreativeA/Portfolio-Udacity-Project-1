@@ -1,0 +1,32 @@
+// Top Border
+
+%t-border {
+	border-top: 1px solid $light-accent;
+}
+
+// Bottom Border
+
+%b-border {
+	border-bottom: 2px solid $border;
+}
+
+// Layout
+
+%content {
+	width: 100%;
+    margin-bottom: 1.25em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+// Full width
+
+%fullwidth {
+	width: 100%;
+}
+
+// Do Not Display
+
+%nodisplay {
+	display: none;
+}
