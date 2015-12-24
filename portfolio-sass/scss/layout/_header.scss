@@ -1,6 +1,6 @@
 /* Top Bar */
 
-.topbar {
+.top-bar {
     @extend %fullwidth;
     position: fixed;
     top: 0;
@@ -18,7 +18,7 @@
     }
 }
 
-.stickylogo {
+.sticky-logo {
     @extend %nodisplay;
 }
 
@@ -27,38 +27,38 @@
 header {
     @extend %content;
     @extend %b-border;
-    .titlebox {
+    .title-box {
         @media #{$brk-mid-narrow} {
             width: 100%;
         }
     }
-    .maintitle {
+    .main-title {
         text-align: right;
         margin: 0.8em 0 0;
         @media #{$brk-mid} {
             font-size: 2.2em;
-            margin-top: 1em;
+            margin: 1em 0 0;
         }
         @media #{$brk-mid-narrow} {
-            margin-top: 0;
+            margin: 0;
             text-align: center;
         }
     }
-    .subtitle {
+    .main-subtitle {
         text-align: right;
         font-style: italic;
         font-size: 1.15em;
         font-weight: normal;
         letter-spacing: 0;
-        color: $subtitle;
-        margin-top: 0.3em;
+        color: $main-subtitle;
+        margin: 0.3em 0 0;
         @media #{$brk-mid-narrow} {
             font-size: 1em;
-            padding-bottom: 1.25em;
+            padding: 0 0 1.25em;
             text-align: center;
         }
     }
-    .logobox {
+    .logo-box {
         @media #{$brk-mid-narrow} {
              width: 100%;
              text-align: center;

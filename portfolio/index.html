@@ -13,9 +13,9 @@
     <script src="js/libs/picturefill.js" async></script>
   </head>
   <body>
-    <div class="topbar">
+    <div class="top-bar">
       <nav>
-        <img class="stickylogo" src="./images/udacitylogo-white.png" alt="Udacious White Udacity Logo" srcset="./images/udacitylogo-white.png 1x, ./images/udacitylogo-white_x2.png 2x">
+        <img class="sticky-logo" src="./images/udacitylogo-white.png" alt="Udacious White Udacity Logo" srcset="./images/udacitylogo-white.png 1x, ./images/udacitylogo-white_x2.png 2x">
         <h3 class="question">So, what's the deal here?</h3>
         <ul id="menu">
           <li><a href="#">About</a></li>
@@ -32,12 +32,12 @@
     </div>    
     <div class="grid">
       <header id="main">
-        <div class="col-3 column logobox">
+        <div class="col-3 column logo-box">
         	<img class="logo" src="./images/udacitylogo.png" alt="Udacious Udacity Logo" srcset="./images/udacitylogo.png 1x, ./images/udacitylogo_x2.png 2x">
         </div>
-        <div class="col-9 column titlebox">
-        	<h1 class="maintitle"><span class="label">Portfolio:</span> Anna&nbsp;Ewing</h1>
-        	<h2 class="subtitle">Refining my skills one website at a time</h2>
+        <div class="col-9 column title-box">
+        	<h1 class="main-title"><span class="label">Portfolio:</span> Anna&nbsp;Ewing</h1>
+        	<h2 class="main-subtitle">Refining my skills one website at a time</h2>
         </div>
       </header>
       <section id="banner">
@@ -56,8 +56,8 @@
             <h2>Explore the inner workings of a curious mind...</h2>
           </div>
         </div>
-        <div class="row featuredrow">
-    	    <div id="feat1" class="col-4 column featureditem">
+        <div class="row featured-row">
+    	    <div id="feat-one" class="col-4 column featured-item">
             <div class="ih-item circle effect1">
               <a href="#">
                 <div class="spinner"></div>
@@ -71,7 +71,7 @@
               </a>
             </div>
     	    </div>
-    	    <div id="feat2" class="col-4 column featureditem">
+    	    <div id="feat-two" class="col-4 column featured-item">
             <div class="ih-item circle effect1">
               <a href="#">
                 <div class="spinner"></div>
@@ -85,7 +85,7 @@
               </a>
             </div>
     	    </div>
-    	    <div id="feat3" class="col-4 column featureditem">
+    	    <div id="feat-three" class="col-4 column featured-item">
             <div class="ih-item circle effect1">
               <a href="#">
                 <div class="spinner"></div>
@@ -133,9 +133,9 @@
           // we round here to reduce a little workload
           var stop = Math.round($(window).scrollTop());
           if (stop > mainbottom) {
-              $('.topbar').addClass('past-main');
+              $('.top-bar').addClass('past-main');
           } else {
-              $('.topbar').removeClass('past-main');
+              $('.top-bar').removeClass('past-main');
           }
       }); 
     });

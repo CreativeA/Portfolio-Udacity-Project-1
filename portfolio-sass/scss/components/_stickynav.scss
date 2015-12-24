@@ -1,19 +1,19 @@
 /* Sticky Top Bar */
 
-.topbar.past-main {
+.top-bar.past-main {
     border-bottom: 3px $light-accent solid;
     padding: 0.7em 0;
 }
 
-.topbar.past-main nav ul {
-    margin-top: 0.2em;
+.top-bar.past-main nav ul {
+    margin: 0.2em 0 0;
 }
 
-.topbar.past-main nav ul li ul li:first-child {
-    margin-top: 0.95em;
+.top-bar.past-main nav ul li ul li:first-child {
+    margin: 0.95em 0 0;
 }
 
-.topbar.past-main .stickylogo {
+.top-bar.past-main .sticky-logo {
     display: inline-block;
     vertical-align:middle;
     height: 3em;
