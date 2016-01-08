@@ -358,10 +358,12 @@ footer .social a:hover {
 
 /* Media Queries */
 
-/* Internet Explorer */
+/* Internet Explorer. Should this be included? When included it makes the w3 validators show it as non-compliant code.
+
 @-ms-viewport{
     width: device-width;
 }
+*/
 
 @media screen and (max-width: 985px) and (min-width: 768px) { 
     .ih-item.circle {
