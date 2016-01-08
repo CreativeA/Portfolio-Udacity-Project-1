@@ -34,13 +34,13 @@
     }
     @media #{$brk-mid-narrow} {
         width: 100%;
-        margin: 0 0 10% 13%;
+        margin: 0 0 2em 13%;
     }
     @media #{$brk-mob} {
-        margin: 0 0 10% 5%;
+        margin: 0 0 2em 5%;
     }
     @media #{$brk-mob-narrow} {
-        margin: 0 0 10% 0;
+        margin: 0 0 2em 0;
     }
 }
 

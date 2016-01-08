@@ -473,18 +473,18 @@ footer .social a:hover {
 
     #showcase .featured-row .featured-item {
         width: 100%;
-        margin: 0 0 10% 13%;
+        margin: 0 0 2em 13%;
     }
 }
 
 @media only screen and (max-width: 420px) {
     #showcase .featured-row .featured-item {
-        margin: 0 0 10% 5%;
+        margin: 0 0 2em 5%;
     }
 }
 
 @media only screen and (max-width: 380px) {
     #showcase .featured-row .featured-item {
-        margin: 0 0 10% 0;
+        margin: 0 0 2em 0;
     }
 }
