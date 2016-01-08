@@ -1,6 +1,6 @@
 ## My Portfolio - Udacity Front End Nanodegree
 
-Includes Standard Version and SASS Version
+Includes Standard Version and Sass Version
 
 ###Live Demo:
 
