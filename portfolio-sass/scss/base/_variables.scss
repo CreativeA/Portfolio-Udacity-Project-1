@@ -25,8 +25,8 @@ $stack-serif		: 'Enriqueta', serif;
 
 // Media Query Breakpoints
 
-$brk-tab			: '(max-width: 985px) and (min-width: 768px)';
-$brk-tab-narrow		: '(max-width: 767px) and (min-width: 521px)';
+$brk-tab			: '(min-width: 768px) and (max-width: 985px)';
+$brk-tab-narrow		: '(min-width: 521px) and (max-width: 767px)';
 $brk-mid			: '(max-width: 620px)';
 $brk-mid-narrow		: '(max-width: 520px)';
 $brk-mob			: '(max-width: 420px)';
