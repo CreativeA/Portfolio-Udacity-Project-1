@@ -1,2 +1,490 @@
-@import url(http://weloveiconfonts.com/api/?family=zocial);*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;font-family:"Enriqueta",serif;color:#fff}body{background:#252831}h1{font-size:2.5em}h2{letter-spacing:0.05em;margin:0}h3{text-align:center;letter-spacing:0.1em}[class*="zocial-"]:before{font-family:'zocial', sans-serif}[class*="entypo-"]:before{font-family:'entypo', sans-serif}ul.slicknav_nav{border-top:1px solid #fff}header,#banner{border-bottom:2px solid #ccc}section,.row,header{width:100%;margin:0 0 1.25em;display:flex;flex-wrap:wrap}.grid,.top-bar,footer,#banner img{width:100%}video,.sticky-logo,.slicknav_menu,.slicknav_menu .slicknav_menutxt,.slicknav_nav .slicknav_arrow{display:none}.grid{max-width:1000px;overflow:hidden;margin:2em auto 0;padding:0 1em}@media (max-width: 520px){.grid{margin:0 auto}}.col-1{width:8.33%}.col-2{width:16.66%}.col-3{width:25%}.col-4{width:30.33%}.col-5{width:41.66%}.col-6{width:50%}.col-7{width:58.33%}.col-8{width:66.66%}.col-9{width:75%}.col-10{width:83.33%}.col-11{width:91.66%}.col-12{width:100%}.top-bar{position:fixed;top:0;background:#e68513;z-index:1000;transition:all 0.25s ease}@media (max-width: 520px){.top-bar{display:none}}@media (max-width: 520px){.slicknav_menu{display:block}}@media (max-width: 520px){header .title-box{width:100%}}header .main-title{text-align:right;margin:0.8em 0 0}@media (max-width: 620px){header .main-title{font-size:2.2em;margin:1em 0 0}}@media (max-width: 520px){header .main-title{margin:0;text-align:center}}header .main-subtitle{text-align:right;font-style:italic;font-size:1.15em;font-weight:normal;letter-spacing:0;color:#818696;margin:0.3em 0 0}@media (max-width: 520px){header .main-subtitle{font-size:1em;padding:0 0 1.25em;text-align:center}}@media (max-width: 520px){header .logo-box{width:100%;text-align:center}}header .logo{margin:1.6em 0 0.7em}footer div{display:inline-block;margin:0 0 1.25em}footer .valid{border:0;width:5.5em;height:2em}footer .social{float:right}footer .social a{list-style:none;display:inline-block;text-decoration:none;margin:0 1em 0 0;font-size:1.5em;color:rgba(100,100,100,0.7)}footer .social a:hover{color:#646464}nav{margin:0 auto;max-width:1000px}nav .question{margin:0.3em 1em;letter-spacing:0;display:inline-block;font-weight:normal}@media (max-width: 620px){nav .question{display:none}}nav ul{margin:0;padding:0;float:right}nav ul li{display:inline-block;line-height:2.37em;margin:0;padding:0;position:relative;float:left;transition:all 0.2s ease}nav ul li a{color:#fff;line-height:2em;text-decoration:none;padding:1.25em;letter-spacing:0.05em}@media (min-width: 521px) and (max-width: 767px){nav ul li a{padding:0.75em}}nav ul li ul{display:none;list-style:none;background:#e68513;min-width:100%;white-space:nowrap}nav ul li ul li{background:#e68513;min-width:100%;white-space:nowrap;padding:0.3em 0;text-align:center}nav ul li ul li a{padding:0}nav ul>li a:before{margin:0 0.625em 0 0}nav li:hover,nav .sub:hover{background-color:#fff}nav li:hover>a,nav .sub:hover>a{color:#e68513}nav li:hover>ul{position:absolute;display:block}.slicknav_menu{background:#e68513}ul.slicknav_nav li:hover a{background:none;color:#e68513}ul.slicknav_nav li>ul>li:hover a{background:#e68513;color:#fff}.slicknav_nav .slicknav_row:hover,ul.slicknav_nav li:hover{background:#fff;color:#e68513}.slicknav_btn{background-color:#e68513}.top-bar.past-main{border-bottom:3px #fff solid;padding:0.7em 0}.top-bar.past-main nav ul{margin:0.2em 0 0}.top-bar.past-main nav ul li ul li:first-child{margin:0.95em 0 0}.top-bar.past-main .sticky-logo{display:inline-block;vertical-align:middle;height:3em;width:3em}#banner{height:inherit;overflow:hidden;padding:0 0 1.25em 0}#showcase{padding:0 2% 4%;overflow:hidden}#showcase #intro{padding:0.75em 1.75em 2em}#showcase #intro h2{text-align:center}@media (max-width: 620px){#showcase #intro h2{font-size:1.25em}}#showcase .featured-row{margin:0 0 0 2%}@media (min-width: 521px) and (max-width: 767px){#showcase .featured-row{margin:0 0 0 6%}}@media (max-width: 620px){#showcase .featured-row{margin:0 2%}}#showcase .featured-row .featured-item{margin:0 1%}@media (min-width: 521px) and (max-width: 767px){#showcase .featured-row .featured-item{width:50%;margin:0}}@media (max-width: 520px){#showcase .featured-row .featured-item{width:100%;margin:0 0 2em 13%}}@media (max-width: 420px){#showcase .featured-row .featured-item{margin:0 0 2em 5%}}@media (max-width: 380px){#showcase .featured-row .featured-item{margin:0 0 2em 0}}#showcase .featured-row .featured-item:last-child{margin-right:0}@media (min-width: 521px) and (max-width: 767px){#showcase .featured-row #feat-three{margin:0 0 0 24%}}@media (min-width: 768px) and (max-width: 985px){.ih-item.circle{width:215px;height:215px}}@media (min-width: 521px) and (max-width: 767px){.ih-item.circle{width:220px;height:220px}}@media (min-width: 768px) and (max-width: 985px){.ih-item.circle .img{width:215px;height:215px}}@media (min-width: 521px) and (max-width: 767px){.ih-item.circle .img{width:220px}}@media (min-width: 768px) and (max-width: 985px){.ih-item.circle.effect1 .spinner{width:225px;height:225px}}@media (min-width: 521px) and (max-width: 767px){.ih-item.circle.effect1 .spinner{width:230px;height:230px}}
-/*# sourceMappingURL=main.css.map */
+/* Site Basics */
+@import url(http://weloveiconfonts.com/api/?family=entypo%7Czocial);
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Enriqueta", serif;
+    color: #fff;
+}
+
+body {
+    background: #252831;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    letter-spacing: 0.05em;
+    margin: 0;
+}
+
+h3 {
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+video {
+    display: none;
+}
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+/* Framework Layout Basics */
+
+.grid {
+    width: 100%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: 2em auto 0;
+    padding: 0 1em;
+}
+
+header, 
+section, 
+.row {
+    width: 100%;
+    margin: 0 0 1.25em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 30.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* Header */
+
+header {
+    border-bottom: 2px solid #ccc;
+}
+
+header .main-title {
+    text-align: right;
+    margin: 0.8em 0 0;
+}
+
+header .main-subtitle {
+    text-align: right;
+    font-style: italic;
+    font-size: 1.15em;
+    font-weight: normal;
+    letter-spacing: 0;
+    color: #818696;
+    margin: 0.3em 0 0;
+}
+
+header .logo {
+    margin: 1.6em 0 0.7em;
+}
+
+/* Navigation */
+
+.top-bar {
+    position: fixed;
+    top: 0;
+    background: #e68513;
+    width: 100%;
+    z-index: 1000;
+    transition: all 0.25s ease;
+}
+
+.sticky-logo {
+    display: none;
+}
+
+nav {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+nav .question {
+    margin: 0.3em 1em;
+    letter-spacing: 0;
+    display: inline-block;
+    font-weight: normal;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 2.37em;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    transition: all 0.2s ease;
+}
+
+nav ul li a {
+    color: #fff;
+    line-height: 2em;
+    text-decoration: none;
+    padding: 1.25em;
+    letter-spacing: 0.05em;
+}
+
+nav ul li ul {
+    display: none;
+    list-style: none;
+    background: #e68513;
+    min-width: 100%;
+    white-space: nowrap;
+}
+
+nav ul li ul li {
+    background: #e68513;
+    min-width: 100%;
+    white-space: nowrap;
+    padding: 0.3em 0;
+    text-align: center;
+}
+
+nav ul li ul li a {
+    padding: 0;
+}
+
+nav ul > li a:before {
+    margin: 0 0.625em 0 0;
+}
+
+nav li:hover, nav .sub:hover {
+    background-color: #fff;
+}
+
+nav li:hover > a, nav .sub:hover > a {
+    color: #e68513;
+}
+
+nav li:hover > ul {
+    position: absolute;
+    display : block;
+}
+
+/* Sticky Top Bar */
+
+.top-bar.past-main {
+    border-bottom: 3px #fff solid;
+    padding: 0.7em 0;
+}
+
+.top-bar.past-main nav ul {
+    margin: 0.2em 0 0;
+}
+
+.top-bar.past-main nav ul li ul li:first-child {
+    margin: 0.95em 0 0;
+}
+
+.top-bar.past-main .sticky-logo {
+    display: inline-block;
+    vertical-align: middle;
+    height: 3em;
+    width: 3em;
+}
+
+/* Responsive Navigation Menu - Override Libs*/
+
+.slicknav_menu {   
+    background: #e68513;
+    display: none;
+}
+
+ul.slicknav_nav {
+    border-top: 1px solid #fff;
+}
+
+ul.slicknav_nav li:hover a {
+    background: none;
+    color: #e68513;
+}
+
+ul.slicknav_nav li > ul > li:hover a {
+    background: #e68513;
+    color: #fff;
+}
+
+.slicknav_nav .slicknav_row:hover, ul.slicknav_nav li:hover {
+    background: #fff;
+    color: #e68513;
+}
+
+.slicknav_btn {
+    background-color: #e68513;
+}
+
+.slicknav_menu .slicknav_menutxt, 
+.slicknav_nav .slicknav_arrow {
+    display: none;
+}
+
+/* Banner Area */
+
+#banner {
+    height: inherit;
+    overflow: hidden;
+    border-bottom: 2px solid #ccc;
+    padding: 0 0 1.25em 0;
+}
+
+#banner img {
+    width: 100%;
+}
+
+/* Portfolio Items */
+
+#showcase {
+    padding: 0 2% 4%; 
+    overflow: hidden;
+}
+
+#showcase #intro {
+    padding: 0.75em 1.75em 2em;
+}
+
+#showcase #intro h2 {
+    text-align: center;
+}
+
+#showcase .featured-row {
+    margin: 0 0 0 2%;
+}
+
+#showcase .featured-row .featured-item {
+    margin: 0 1%;
+}
+
+#showcase .featured-row .featured-item:last-child {
+    margin-right: 0;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+}
+
+footer div {
+    display: inline-block;
+    margin: 0 0 1.25em;
+}
+
+footer .valid {
+    border: 0;
+    width: 5.5em;
+    height: 2em;
+}
+
+footer .social {
+    float: right;
+}
+
+footer .social a {
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 1em 0 0;
+    font-size: 1.5em;
+    color: rgba(100,100,100,0.7);
+}
+
+footer .social a:hover {
+    color: rgba(100,100,100,1.0);
+}
+
+/* Media Queries */
+
+/* Internet Explorer. Should this be included? When included it makes the w3 validators show it as non-compliant code.
+
+@-ms-viewport{
+    width: device-width;
+}
+*/
+
+@media screen and (min-width: 768px) and (max-width: 985px) { 
+    .ih-item.circle {
+      width: 215px;
+      height: 215px;
+    }
+
+    .ih-item.circle .img {
+      width: 215px;
+      height: 215px;
+    }
+
+    .ih-item.circle.effect1 .spinner {
+      width: 225px;
+      height: 225px;
+    }
+}
+
+@media screen and (min-width: 521px) and (max-width: 767px) {
+    nav ul li a {
+        padding: 0.75em;
+    }
+    
+    #showcase .featured-row {
+        margin: 0 0 0 6%;
+    }
+
+    #showcase .featured-row .featured-item {
+        width: 50%;
+        margin: 0;
+    }
+
+    #showcase .featured-row #feat-three {
+        margin: 0 0 0 24%;
+    }
+
+    .ih-item.circle {
+        width: 220px;
+        height: 220px;
+    }
+
+    .ih-item.circle .img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .ih-item.circle.effect1 .spinner {
+        width: 230px;
+        height: 230px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    nav .question {
+        display: none;
+    }
+
+    header .main-title {
+        font-size: 2.2em;
+        margin: 1em 0 0;
+    }
+
+    #showcase #intro h2 {
+        font-size: 1.25em;
+    }
+
+    #showcase .featured-row {
+        margin: 0 2%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .top-bar {
+        display: none;
+    }
+    
+    .slicknav_menu {
+        display: block;
+    }
+
+    .grid {
+        margin: 0 auto;
+    }
+
+    header .title-box {
+        width: 100%;
+    }
+
+    header .main-title, 
+    header .main-subtitle, 
+    header .logo-box{
+        text-align: center;
+    }
+
+    header .main-title {
+        margin: 0;
+    }
+
+    header .main-subtitle {
+        font-size: 1em;
+        padding: 0 0 1.25em;
+    }
+
+    header .logo-box {
+        width: 100%;
+    }
+
+    #showcase .featured-row .featured-item {
+        width: 100%;
+        margin: 0 0 2em 13%;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    #showcase .featured-row .featured-item {
+        margin: 0 0 2em 5%;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    #showcase .featured-row .featured-item {
+        margin: 0 0 2em 0;
+    }
+}
